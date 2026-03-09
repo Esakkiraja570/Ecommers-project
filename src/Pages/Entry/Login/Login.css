@@ -1,0 +1,15 @@
+.login-container{
+background-color: rgb(56, 56, 196);
+margin: 0px;
+height: 1000px;
+display: flex;
+flex-direction: column;
+justify-content: center;
+align-items: center;
+}
+.login-form-container{
+    display: inline-block;
+    text-align: center;
+    font-size: 18px;
+    
+}
