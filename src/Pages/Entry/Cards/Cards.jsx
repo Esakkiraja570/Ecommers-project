@@ -1,38 +1,43 @@
-import React from 'react'
-import './Cards.css'
-import lap from '../../../Images/Laptop.png'
-import cloths from  '../../../Images/Cloths.png'
-import furniture from '../../../Images/Furniture.png'
-import mobile from '../../../Images/Mobile.jpg'
+import React from 'react';
+import { useNavigate } from 'react-router-dom';
+import './Cards.css';
+
+import lap from '../../../Images/Laptop.png';
+import cloths from '../../../Images/Cloths.png';
+import furniture from '../../../Images/Furniture.png';
+import mobile from '../../../Images/Mobile.jpg';
 
 const Cards = () => {
+  const navigate = useNavigate();
+
+  const categories = [
+    { title: 'Laptops', path: '/laptop', img: lap },
+    { title: 'Clothing', path: '/clothing', img: cloths },
+    { title: 'Furniture', path: '/furniture', img: furniture },
+    { title: 'Mobiles', path: '/mobile', img: mobile },
+  ];
+
   return (
-    <div className='banner'>
-      <div className='card-banner'>
-
-        <div className='card' onClick={() => window.location.href = '/laptop'}>
-          <img src={lap} alt='laptop' />
-          <h4>Laptops</h4>
-        </div>
-
-        <div className='card' onClick={() => window.location.href = '/clothing'}>
-          <img src={cloths} alt='cloths' />
-          <h4>Clothing</h4>
-        </div>
-
-        <div className='card' onClick={() => window.location.href = '/furniture'}>
-          <img src={furniture} alt='furniture' />
-          <h4>Furniture</h4>
-        </div>
-
-        <div className='card' onClick={() => window.location.href = '/mobile'}>
-          <img src={mobile} alt='mobile' />
-          <h4>Mobiles</h4>
-        </div>
-
+    <div className="categories-block-wrapper">
+      <div className="categories-grid-container">
+        {categories.map((cat, index) => (
+          <div 
+            key={index} 
+            className="category-show-card" 
+            onClick={() => navigate(cat.path)}
+          >
+            <div className="category-img-container">
+              <img src={cat.img} alt={cat.title} className="category-card-img" />
+            </div>
+            <div className="category-card-details">
+              <h4>{cat.title}</h4>
+              <span className="category-shop-now-btn">Browse Collection</span>
+            </div>
+          </div>
+        ))}
       </div>
     </div>
-  )
-}
+  );
+};
 
 export default Cards;

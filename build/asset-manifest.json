@@ -1,0 +1,28 @@
+{
+  "files": {
+    "main.css": "/static/css/main.d8bb65ac.css",
+    "main.js": "/static/js/main.f499a455.js",
+    "static/js/453.9e1a0d80.chunk.js": "/static/js/453.9e1a0d80.chunk.js",
+    "static/media/wooden door.png": "/static/media/wooden door.2cdfae71d374bfd93858.png",
+    "static/media/sofa.png": "/static/media/sofa.f7abc8028a2ec2d8f3d4.png",
+    "static/media/yellow.png": "/static/media/yellow.a24b1a096858726cd373.png",
+    "static/media/poco.png": "/static/media/poco.8494e70e686e7a3bcc17.png",
+    "static/media/wooden-chair-png.png": "/static/media/wooden-chair-png.d6466f70e9fc2b31c597.png",
+    "static/media/table.png": "/static/media/table.74f478cec0b55d357656.png",
+    "static/media/vivo.png": "/static/media/vivo.460b3026f6891fa74cc8.png",
+    "static/media/green_office-removebg-preview.png": "/static/media/green_office-removebg-preview.0bfb25440f67ccb416e8.png",
+    "static/media/lenovo-removebg-preview.png": "/static/media/lenovo-removebg-preview.8ac2d772fa9a7d9a20a6.png",
+    "static/media/blue.png": "/static/media/blue.fa2b9db9cef0242e2926.png",
+    "static/media/lava-mobile.png": "/static/media/lava-mobile.9efadac278ec7f7e0202.png",
+    "static/media/Home-Banner.webp": "/static/media/Home-Banner.2b754b551d75da243a48.webp",
+    "static/media/green-formal.png": "/static/media/green-formal.8fe89741b5c8a7a451a8.png",
+    "index.html": "/index.html",
+    "main.d8bb65ac.css.map": "/static/css/main.d8bb65ac.css.map",
+    "main.f499a455.js.map": "/static/js/main.f499a455.js.map",
+    "453.9e1a0d80.chunk.js.map": "/static/js/453.9e1a0d80.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.d8bb65ac.css",
+    "static/js/main.f499a455.js"
+  ]
+}

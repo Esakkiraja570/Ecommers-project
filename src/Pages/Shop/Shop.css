@@ -1,0 +1,48 @@
+.shop-page-showcase {
+  background: var(--bg-primary);
+}
+
+.shop-hero-banner {
+  position: relative;
+  width: 100%;
+  height: 240px;
+  background: linear-gradient(135deg, #4f46e5 0%, #0ea5e9 100%);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  color: white;
+}
+
+.shop-hero-overlay {
+  padding: 24px;
+}
+
+.shop-hero-banner h1 {
+  font-size: 2.8rem;
+  color: white;
+  margin-bottom: 8px;
+  letter-spacing: -0.5px;
+}
+
+.shop-hero-banner p {
+  font-size: 1.05rem;
+  color: rgba(255, 255, 255, 0.85);
+  max-width: 600px;
+  margin: 0 auto;
+}
+
+.shop-blocks {
+  padding-bottom: 60px;
+}
+
+/* Adjust nested page container margins on showcase page */
+.shop-blocks .page {
+  padding-top: 50px;
+  padding-bottom: 10px;
+  border-bottom: 1px dashed var(--border-color);
+}
+
+.shop-blocks .page:last-child {
+  border-bottom: none;
+}
